@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### docker
+```
+docker compose up
+```
+
+### Prisma起動
+```
+npx prisma studio
+```
+
+### マイグレーション実行
+```
+npx prisma migrate dev
+```
+マイグレーションファイルのも作成
+```
+npx prisma migrate dev --create-only
+```
 
 ## Getting Started
 
